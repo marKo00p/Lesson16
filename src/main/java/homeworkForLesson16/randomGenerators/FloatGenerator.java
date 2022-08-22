@@ -7,4 +7,9 @@ public class FloatGenerator extends AbstractGenerator<Float>{
 
         return random.nextFloat();
     }
+
+    @Override
+    public Class<Float> getType() {
+        return Float.class;
+    }
 }
